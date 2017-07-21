@@ -197,6 +197,7 @@
     <Compile Include="App_Start\IdentityConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
+    <Compile Include="Areas\Invitado\Controllers\AsientoController.cs" />
     <Compile Include="Areas\Invitado\Controllers\MainController.cs" />
     <Compile Include="Areas\Invitado\Controllers\ProtagonistaController.cs" />
     <Compile Include="Areas\Invitado\InvitadoAreaRegistration.cs" />
@@ -345,6 +346,7 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Areas\Invitado\Models\" />
+    <Folder Include="Areas\Invitado\Views\Asiento\" />
     <Folder Include="Areas\Invitado\Views\Protagonista\" />
     <Folder Include="Imagenes\" />
   </ItemGroup>
